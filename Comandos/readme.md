@@ -10,3 +10,8 @@
 em seguida o 
 ```npm run dev ```
 ![alt text](image-3.png)
+
+* Fazer as configurações de banco de dados no arquivo .env
+* Executar as migration:
+```php artisan migrate```  
+![alt text](image-4.png)
