@@ -15,3 +15,7 @@ em seguida o
 * Executar as migration:
 ```php artisan migrate```  
 ![alt text](image-4.png)
+
+* Criando o Model e o Controller de tarefa
+```php artisan make:controller --resource TarefaController --model=Tarefa```
+![alt text](image-5.png)
