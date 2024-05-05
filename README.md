@@ -17,3 +17,9 @@ Aplicação de controle de tarefas, Curso Desenvolvimento Web Avançado Laravel 
 ```composer require laravel/ui:^3.2```
 * Ao executar php artisan list, será exibido essas duas novas funcionalidades
 ![alt text](image-2.png)
+
+* OBS - Nessa versão do laravel teremos que enviar todo o caminho para o controller pq o a predefinição do namespace no RouteServiceProvider está comentada:
+![alt text](image-3.png)
+  - Logo precisamos passar o acrônimo completo e não somente o nome do controller para a definição das rotas:
+  ![alt text](image-4.png)
+  - Caso queiramos utilizar a versão encurtada basta descomentar essa instrução, e ajustar as rotas
