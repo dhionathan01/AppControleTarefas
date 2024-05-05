@@ -26,3 +26,5 @@ em seguida o
 
 * Criando template de email com markdown Mailables
 ```php artisan make:mail MensagemTesteMail --markdown emails.mensagem-teste```
+* Enviando o email com template personalizado:
+![alt text](image-7.png)
