@@ -19,3 +19,7 @@ em seguida o
 * Criando o Model e o Controller de tarefa
 ```php artisan make:controller --resource TarefaController --model=Tarefa```
 ![alt text](image-5.png)
+
+* Fazendo as configurações do smtp pelo arquivo .env
+* habilitando o reset de senha
+![alt text](image-6.png)
