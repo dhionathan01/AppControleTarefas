@@ -23,3 +23,6 @@ em seguida o
 * Fazendo as configurações do smtp pelo arquivo .env
 * habilitando o reset de senha
 ![alt text](image-6.png)
+
+* Criando template de email com markdown Mailables
+```php artisan make:mail MensagemTesteMail --markdown emails.mensagem-teste```
