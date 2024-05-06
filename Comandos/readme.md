@@ -34,3 +34,9 @@ em seguida o
  ```php artisan vendor:publish```
  E selecione o 14 para publicar o mail
  ![alt text](image-8.png)
+ * Criando uma classe de notificação para Redefinir a senha, para que não seja necessários mexer nos métodos padrões do framework
+ ```php artisan make:notification RedefinirSenhaNotification```
+ ![alt text](image-9.png)
+
+ * Conclusão:
+ * ![alt text](image-10.png)
