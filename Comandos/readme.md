@@ -40,3 +40,6 @@ em seguida o
 
  * Conclusão:
  * ![alt text](image-10.png)
+
+* Habilitando Verificação de email:
+![alt text](image-11.png)
