@@ -28,3 +28,9 @@ em seguida o
 ```php artisan make:mail MensagemTesteMail --markdown emails.mensagem-teste```
 * Enviando o email com template personalizado:
 ![alt text](image-7.png)
+
+* Publicando o template de email para poder ser customizado e editado sem mexer nos códigos raiz.
+* Execute o comando
+ ```php artisan vendor:publish```
+ E selecione o 14 para publicar o mail
+ ![alt text](image-8.png)
