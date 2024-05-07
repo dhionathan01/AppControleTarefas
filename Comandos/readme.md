@@ -47,3 +47,9 @@ em seguida o
 * Customizando email de verificação de email
 ```php artisan make:notification VerificarEmailNotification ```
 ![alt text](image-12.png)
+
+* Criando tabela tarefas:
+```php artisan make:migration create_tarefas_table```
+![alt text](image-13.png)
+```php artisan migrate```
+![alt text](image-14.png)
