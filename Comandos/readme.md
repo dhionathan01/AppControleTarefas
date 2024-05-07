@@ -43,3 +43,7 @@ em seguida o
 
 * Habilitando Verificação de email:
 ![alt text](image-11.png)
+
+* Customizando email de verificação de email
+```php artisan make:notification VerificarEmailNotification ```
+![alt text](image-12.png)
