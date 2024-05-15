@@ -56,3 +56,10 @@ em seguida o
 
 Criando novo email para tarefas
 ```php artisan make:mail NovaTarefaMail --markdown emails.nova-tarefa```
+
+* Criando migration pare relacionar tarefas a um usuário:
+```php artisan make:migration alter_table_tarefas_relacionamento_users```
+
+* Executando a migrate:
+```php artisan migrate ```
+![alt text](image-15.png)
