@@ -53,3 +53,6 @@ em seguida o
 ![alt text](image-13.png)
 ```php artisan migrate```
 ![alt text](image-14.png)
+
+Criando novo email para tarefas
+```php artisan make:mail NovaTarefaMail --markdown emails.nova-tarefa```
