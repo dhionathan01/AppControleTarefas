@@ -71,3 +71,9 @@ No diretório do projeto chamar:
 * É necessário publicar o arquivo exel para poder fazer configurações específicar para n ter que mexer na classe vendor:
 ```php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider" --tag=config ```
 ![alt text](image-16.png)
+
+* Criando uma classe de exportação para Tarefa
+``` php artisan make:export TarefasExport --model=Tarefa```
+* OBS: Para o perfeito funcionamento foi necessário ativar essa extensção no php.ini ```;extension=gd ``` e atualizar o composer:
+![alt text](image-17.png)
+![alt text](image-18.png)
