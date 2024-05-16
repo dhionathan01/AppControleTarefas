@@ -63,3 +63,11 @@ Criando novo email para tarefas
 * Executando a migrate:
 ```php artisan migrate ```
 ![alt text](image-15.png)
+
+* Instalando o pacote laravel Excel:
+No diretório do projeto chamar:
+*OBS: Foi necessário abrir o terminal bash como administrador e atualizar o composer para a versão 2 ```composer self-update --2 ```
+```composer require maatwebsite/excel:^3.1.0 --ignore-platform-reqs```
+* É necessário publicar o arquivo exel para poder fazer configurações específicar para n ter que mexer na classe vendor:
+```php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider" --tag=config ```
+![alt text](image-16.png)
