@@ -77,3 +77,8 @@ No diretório do projeto chamar:
 * OBS: Para o perfeito funcionamento foi necessário ativar essa extensção no php.ini ```;extension=gd ``` e atualizar o composer:
 ![alt text](image-17.png)
 ![alt text](image-18.png)
+
+* Instalando o mpdf:
+`composer require mpdf/mpdf=^8.0.10`
+![alt text](image-19.png)
+![alt text](image-20.png)
