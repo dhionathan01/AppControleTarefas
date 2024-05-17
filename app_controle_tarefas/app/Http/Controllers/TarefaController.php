@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Contracts\Mail\Mailable;
 use App\Exports\TarefasExport;
 use Maatwebsite\Excel\Facades\Excel;
+use PDF;
 
 class TarefaController extends Controller
 {
@@ -122,5 +123,10 @@ class TarefaController extends Controller
         }
 
         return redirect()->route('tarefa.index');
+    }
+
+    public function exportar(){
+        $pdf = PDF::loadView('tarefa.pdf', []);
+        return $pdf->download('lista_de_tarefas.pdf');
     }
 }
