@@ -87,3 +87,6 @@ No diretório do projeto chamar:
 `$ composer require barryvdh/laravel-dompdf=^0.9.0`
 ![alt text](image-22.png)
 ![alt text](image-21.png)
+
+* publicando dompdf:
+`php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"`
