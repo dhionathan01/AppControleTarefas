@@ -82,3 +82,8 @@ No diretório do projeto chamar:
 `composer require mpdf/mpdf=^8.0.10`
 ![alt text](image-19.png)
 ![alt text](image-20.png)
+
+* instalando o dompdf
+`$ composer require barryvdh/laravel-dompdf=^0.9.0`
+![alt text](image-22.png)
+![alt text](image-21.png)
