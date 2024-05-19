@@ -7,14 +7,14 @@
             <div class="card">
                 <div class="card-header">
                     <div class="row">
-                        <div class="col-6">Tarefas</div>
-                        <div class="col-6">
+                        <div class="col-2">Tarefas</div>
+                        <div class="col-10">
                             <div class="float-end">
                                 <a class="btn btn-primary" href="{{route('tarefa.create')}}" style="margin-right: 0.75rem;"><span class="bi bi-plus-lg"></span> Novo</a>
-                                <a href="{{route('tarefa.exportacao', ['extensao' => 'xlsx'])}}" style="margin-right:0.75rem;">XLSX</a>
-                                <a href="{{route('tarefa.exportacao', ['extensao' => 'csv'])}}" style="margin-right:0.75rem;">CSV</a>
-                                <a href="{{route('tarefa.exportacao', ['extensao' => 'pdf'])}}" style="margin-right:0.75rem;">PDF</a>
-                                <a href="{{route('tarefa.exportar')}}" target="_blank">PDF V2</a>
+                                <a class="btn btn-success" href="{{route('tarefa.exportacao', ['extensao' => 'xlsx'])}}" style="margin-right:0.75rem;"><span class="bi bi-filetype-xlsx"></span> XLSX</a>
+                                <a class="btn btn-success" href="{{route('tarefa.exportacao', ['extensao' => 'csv'])}}" style="margin-right:0.75rem;"><span class="bi bi-filetype-xlsx"></span> CSV</a>
+                                <a class="btn btn-danger" href="{{route('tarefa.exportacao', ['extensao' => 'pdf'])}}" style="margin-right:0.75rem;"><span class="bi bi-file-earmark-pdf"></span> PDF</a>
+                                <a class="btn btn-danger" href="{{route('tarefa.exportar')}}" target="_blank"><span class="bi bi-file-earmark-pdf-fill"></span> PDF Open</a>
                             </div>
                         </div>
                         </div>
