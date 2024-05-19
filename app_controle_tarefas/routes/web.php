@@ -16,7 +16,11 @@ use Illuminate\Support\Facades\Mail;
 */
 
 Route::get('/', function () {
-    return view('bem-vindo');
+    if(empty(auth()->user()->name)){
+        return redirect()->route('login');
+    }else{
+        return view('bem-vindo');
+    }
 });
 Route::get('tarefa/exportacao/{extensao}', 'App\Http\Controllers\TarefaController@exportacao')->name('tarefa.exportacao');
 Route::get('tarefa/exportar/', 'App\Http\Controllers\TarefaController@exportar')->name('tarefa.exportar');

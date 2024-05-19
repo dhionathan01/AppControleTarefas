@@ -1,20 +1,12 @@
-Site da Aplicação
+@extends('layouts.app')
 @auth
-    <h1>Usuário Autenticado</h1>
-    <p>
-        ID {{Auth::user()->id}}
-    </p>
-
-    <p>
-        Nome: {{Auth::user()->name}}
-    </p>
-    <p>
-        Email: {{Auth::user()->email}}
-    </p>
+    @section('content')
+        <div id="welcome_div">
+            <div class="welcome-container">
+                <h1>Bem-vindo  {{auth()->user()->name}}</h1>
+                <p>Clique em "Ver tarefas" para ser redirecionado para as tarefas</p>
+                <a href="/tarefa">Ver tarefas</a>
+            </div>
+        </div>
+    @endsection
 @endauth
-
-@guest
-    Olá visitante, tudo bem ??
-    <br>...
-    <br>...
-@endguest
