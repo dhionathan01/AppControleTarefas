@@ -10,7 +10,7 @@
                         <div class="col-6">Tarefas</div>
                         <div class="col-6">
                             <div class="float-end">
-                                <a href="{{route('tarefa.create')}}" style="margin-right: 0.75rem;">Novo</a>
+                                <a class="btn btn-primary" href="{{route('tarefa.create')}}" style="margin-right: 0.75rem;"><span class="bi bi-plus-lg"></span> Novo</a>
                                 <a href="{{route('tarefa.exportacao', ['extensao' => 'xlsx'])}}" style="margin-right:0.75rem;">XLSX</a>
                                 <a href="{{route('tarefa.exportacao', ['extensao' => 'csv'])}}" style="margin-right:0.75rem;">CSV</a>
                                 <a href="{{route('tarefa.exportacao', ['extensao' => 'pdf'])}}" style="margin-right:0.75rem;">PDF</a>

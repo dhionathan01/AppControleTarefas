@@ -23,3 +23,8 @@ Aplicação de controle de tarefas, Curso Desenvolvimento Web Avançado Laravel 
   - Logo precisamos passar o acrônimo completo e não somente o nome do controller para a definição das rotas:
   ![alt text](image-4.png)
   - Caso queiramos utilizar a versão encurtada basta descomentar essa instrução, e ajustar as rotas
+instalando boostrap icons com :
+`npm install bootstrap-icons `
+após incluir os icones no app.scss rodar o run dev
+![alt text](image-5.png)
+![alt text](image-6.png)
